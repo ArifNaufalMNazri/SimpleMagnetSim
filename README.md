@@ -17,9 +17,11 @@ I tried learning the mathematics behind drawing a magnetic field and implementin
 <p align="center"><em>The magnetic field drawn as circles</em></p>
 <p align="center"><img src="https://github.com/user-attachments/assets/0c9597ad-41e5-4c78-8e8a-52f8c93c8339" height="250" width="250"></p>
 
+## Applying the maths
+First, I needed to calculate the **vector** between the center of the magnetic object and the magnet. Then, I needed to check whether the object **intersected** with the magnetic field. If true, then update the position of the center of the circle until it intersects or is close to the closest pole of the magnet. 
 
-
-
+<p align="center"><em>The magnetic object inside the magnetic field</em></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/a83c8956-b53d-4432-9ee1-f080aa3b5b86" height="250" width="250"></p>
 
 
 
