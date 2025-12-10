@@ -12,16 +12,23 @@ This is a magnet simulator that I made for a physics presentation in school. I l
 </p>
 
 ## Learning the maths
-I tried learning the mathematics behind drawing a magnetic field and implementing them into the draw loop, but it proved to be very complicated and complex. I learned a lot about vectors, but in the end trying to draw the exact magnetic field was too difficult of an endeavor. So, I decided to replace it with circles that act as the amagnetic field. 
+I tried learning the mathematics behind drawing a magnetic field and implementing them into the draw loop, but it proved to be very complicated and complex. Something simpler was need. So, I decided to replace it with circles that act as the magnetic field. 
 
 <p align="center"><em>The magnetic field drawn as circles</em></p>
 <p align="center"><img src="https://github.com/user-attachments/assets/0c9597ad-41e5-4c78-8e8a-52f8c93c8339" height="250" width="250"></p>
 
 ## Applying the maths
-First, I needed to calculate the **vector** between the center of the magnetic object and the magnet. Then, I needed to check whether the object **intersected** with the magnetic field. If true, then update the position of the center of the circle until it intersects or is close to the closest pole of the magnet. 
+First, I needed to calculate the **vector** between the center of the magnetic object and the magnet. Then, check whether the object **intersected** with the magnetic field. If true, then update the position of the center of the circle towards the closest pole of the magnet. 
 
 <p align="center"><em>The magnetic object inside the magnetic field</em></p>
 <p align="center"><img src="https://github.com/user-attachments/assets/a83c8956-b53d-4432-9ee1-f080aa3b5b86" height="250" width="250"></p>
+
+## End Product
+The simulation shows a grey, magnetic circle and a bar magnet with a magnetic field surrounding it. If the circle is within or intersecting the magnetic field, it moves towards one of closest pole--North or South. The circles position is reset after it touches the magnet
+
+![20251211_063111-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2becbbf9-62e9-40d4-8842-2791e9cef343)
+
+
 
 
 
