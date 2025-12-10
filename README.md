@@ -28,6 +28,9 @@ The simulation shows a grey, magnetic circle and a bar magnet with a magnetic fi
 
 ![20251211_063111-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2becbbf9-62e9-40d4-8842-2791e9cef343)
 
+## The code 🚀
+I included all the **header**, **source** and **shader text** files in this repo. Feel free to check them out and give helpful feedback on what could be improved. I did not include the files for OpenGL and glm.  
+
 ## Final Thoughts 😃
 I'm really proud that this project went well. I learned a lot about vectors and translation, coding in OpenGL, as well as reinforce key math concepts I learned in school. This was a really fun project to do, and I hope to do more in the future.
 
